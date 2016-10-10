@@ -1,0 +1,68 @@
+.header{
+    border: 3px solid black;
+    text-align: center;
+}
+
+h1{
+    font-family: "Lucida Sans Typewriter";
+    font-size: 150%;
+    font-weight: lighter;
+    width: 550px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+}
+
+a:link {
+    color: Navy;
+}
+
+a:visited {
+    color: dodgerblue;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+a:active {
+    color: Navy;
+}
+
+img.displayed {
+    display: block;
+    height: 300px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+    img.displayed{
+        height: 200;
+        widith: 120;
+    }
+}
+@media only screen and (max-width : 480px) {
+    img.displayed{
+        display: none;
+    }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+    img.displayed{
+        height: 290;
+        widith: 210;
+    }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+    img.displayed{
+        height: 290;
+        widith: 210;
+    }
+}
